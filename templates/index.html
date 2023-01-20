@@ -120,6 +120,14 @@
                   </li>
                 </ul>
               </div>
+              <div class="d-flex justify-content-end my-2">
+                <a
+                  class="btn btn-primary"
+                  href="{{url_for('.download_report')}}"
+                >
+                  Descargar Reporte
+                </a>
+              </div>
             </div>
 
             <div
@@ -208,152 +216,202 @@
 
               <div class="tab-content" id="mainTapContent">
                 <div
-                  class="card mb-4 tab-pane fade show active"
+                  class="tab-pane fade show active"
                   id="mainEquifax"
                   role="tabpanel"
                   aria-labelledby="mainEquifax-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Score Equifax</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Score Equifax</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="mainIngreso"
                   role="tabpanel"
                   aria-labelledby="mainIngreso-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Ingreso</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Ingreso</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="mainCuota"
                   role="tabpanel"
                   aria-labelledby="mainCuota-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Cuota</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Cuota</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="mainJudicial"
                   role="tabpanel"
                   aria-labelledby="mainJudicial-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Demanda Judicial</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Demanda Judicial</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="mainCastigada"
                   role="tabpanel"
                   aria-labelledby="mainCastigada-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Cartera Castigada</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Cartera Castigada</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
               </div>
@@ -445,156 +503,206 @@
 
               <div class="tab-content" id="secondaryTapContent">
                 <div
-                  class="card mb-4 tab-pane fade show active"
+                  class="tab-pane fade show active"
                   id="secondaryInhabilitada"
                   role="tabpanel"
                   aria-labelledby="secondaryInhabilitada-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Persona Inhabilitada</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4 tab-pane">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Persona Inhabilitada</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="secondaryExpDays"
                   role="tabpanel"
                   aria-labelledby="secondaryExpDays-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Días Vencidos</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Días Vencidos</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="secondaryExpDateComer"
                   role="tabpanel"
                   aria-labelledby="secondaryExpDateComer-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">
-                      Fecha de Vencimiento Deuda Comercial
-                    </h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">
+                        Fecha de Vencimiento Deuda Comercial
+                      </h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="secondaryExpDateFinan"
                   role="tabpanel"
                   aria-labelledby="secondaryExpDateFinan-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">
-                      Fecha de Vencimiento Deuda Financiera
-                    </h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">
+                        Fecha de Vencimiento Deuda Financiera
+                      </h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
 
                 <div
-                  class="card mb-4 tab-pane fade"
+                  class="tab-pane fade"
                   id="secondaryCredit"
                   role="tabpanel"
                   aria-labelledby="secondaryCredit-tab"
                 >
-                  <div class="card-body table-responsive small">
-                    <h5 class="card-title">Tarjeta de Crédito</h5>
-                    <table
-                      id="user_report_1"
-                      class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                  <div class="card mb-4">
+                    <div class="card-body table-responsive small">
+                      <h5 class="card-title">Tarjeta de Crédito</h5>
+                      <table
+                        id="user_report_1"
+                        class="table table-light thead-dark table-striped table-bordered table-hover table-sm shadow"
+                      >
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Título 1</th>
+                            <th>Título 2</th>
+                            <th>Título 3</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                            <td>Dato 3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-end my-2">
+                    <a
+                      class="btn btn-primary"
+                      href="{{url_for('.download_report')}}"
                     >
-                      <thead class="table-dark">
-                        <tr>
-                          <th>Título 1</th>
-                          <th>Título 2</th>
-                          <th>Título 3</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Dato 1</td>
-                          <td>Dato 2</td>
-                          <td>Dato 3</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      Descargar Reporte
+                    </a>
                   </div>
                 </div>
               </div>
